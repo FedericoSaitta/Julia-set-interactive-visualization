@@ -27,7 +27,7 @@ int main() {
     // The display is square and has resolution number of pixels
     constexpr int resolution{350};
 
-    constexpr int maxIter{80};
+    constexpr int maxIter{100};
     constexpr Complex juliaCoeff{0, 0};
 
     displayMandelBrot(ComplexPlane, resolution, maxIter, juliaCoeff);
